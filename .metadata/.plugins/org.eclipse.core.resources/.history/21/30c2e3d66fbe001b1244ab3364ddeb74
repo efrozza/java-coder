@@ -1,0 +1,23 @@
+package jdbc;
+
+import java.sql.Connection;
+import java.sql.Statement;
+
+public class CriarTabelaPessoas {
+	
+	public static void main(String[] args) {
+		
+		Connection conexao = FabricaConexao.getConexao();
+		
+		String sql = "";
+		
+		Statement stmt = conexao.createStatement();
+		stmt.execute(sql);
+		
+		conexao.close();
+		
+		System.out.println("Tabela gerada");
+		
+	}
+
+}

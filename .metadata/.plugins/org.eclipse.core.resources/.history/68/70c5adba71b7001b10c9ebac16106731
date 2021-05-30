@@ -1,0 +1,14 @@
+package baralho;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Baralho {
+	
+	List<Carta> cartas = new ArrayList<>();
+	
+	void embaralhar() {
+		
+	}
+
+}

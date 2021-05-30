@@ -1,0 +1,5 @@
+package com.frozza.usandospringboot;
+
+public class WebController {
+
+}

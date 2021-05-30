@@ -1,0 +1,5 @@
+package exercicios.classe;
+
+public enum FaixaImc {
+
+}

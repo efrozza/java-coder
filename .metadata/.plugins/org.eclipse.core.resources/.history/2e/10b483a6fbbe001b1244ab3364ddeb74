@@ -1,0 +1,13 @@
+package modelo.basico;
+
+public class Usuario {
+	
+	private long id;
+	private String nome;
+	private String email;
+	
+	public Usuario() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

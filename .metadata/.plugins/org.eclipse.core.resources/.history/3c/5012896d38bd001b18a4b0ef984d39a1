@@ -1,0 +1,11 @@
+package exercicios.classe;
+
+public class FaixaImcTeste {
+	
+	public static void main(String[] args) {
+		FaixaImc teste = new FaixaImc();
+		
+		
+	}
+
+}

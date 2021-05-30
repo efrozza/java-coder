@@ -1,0 +1,7 @@
+package baralho;
+
+public class Baralho {
+	
+	List<Carta> cartas = new ArrayList<>();
+
+}

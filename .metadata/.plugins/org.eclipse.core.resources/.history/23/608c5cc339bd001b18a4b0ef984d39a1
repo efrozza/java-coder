@@ -1,0 +1,14 @@
+package exercicios.classe;
+
+import oo.heranca.FaixaImc;
+
+public class FaixaImcTeste {
+	
+	public static void main(String[] args) {
+		
+		System.out.println(FaixaImc.getFaixa(20, Sexo.MASCULINO));
+		
+		
+	}
+
+}

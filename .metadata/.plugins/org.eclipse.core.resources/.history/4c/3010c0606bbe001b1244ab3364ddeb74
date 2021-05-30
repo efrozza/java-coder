@@ -1,0 +1,14 @@
+package jdbc;
+
+public class TesteConexao {
+	
+	public static void main(String[] args) {
+		
+		String stringDeConexao = "jdbc:mysql://localhost";
+		String usuario = "root";
+		String senha = "1234567"
+		
+		
+	}
+
+}

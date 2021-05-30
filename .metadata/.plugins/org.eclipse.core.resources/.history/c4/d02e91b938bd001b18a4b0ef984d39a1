@@ -1,0 +1,43 @@
+package exercicios.classe;
+
+public enum FaixaImc {
+
+    ABAIXO("Abaixo do peso",
+            19,
+            21 ),
+    NORMAL("Peso Normal", 26, 27),
+    ACIMA("Acima do peso", 100, 100);
+
+	protected double um;
+	protected double dois;
+    protected double limiteMaximoFeminino;
+    protected double limiteMaximoMasculino;
+
+    FaixaImc(String s, int i, int i1) {
+
+    }
+
+    public static FaixaImc getFaixa(double imc, Sexo sexo){
+        FaixaImc retorno = values()[0];
+
+        for (int i=1; i < values().length; i++){
+
+            FaixaImc atual = values()[i];
+            System.out.println(atual);
+            FaixaImc anterior = values()[i-1];
+            System.out.println(anterior);
+
+            double limiteInferior = (sexo == Sexo.FEMININO) ? anterior.limiteMaximoFeminino : anterior.limiteMaximoMasculino;
+            double limiteSuperior = (sexo == Sexo.FEMININO) ? atual.limiteMaximoFeminino : atual.limiteMaximoMasculino;
+
+            if (imc >= limiteInferior && imc < limiteSuperior){
+                retorno = atual;
+            }
+
+        }
+
+        return retorno;
+
+    }
+
+}

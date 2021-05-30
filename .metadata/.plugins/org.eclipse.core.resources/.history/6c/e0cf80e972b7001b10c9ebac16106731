@@ -1,0 +1,30 @@
+package baralho;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Baralho {
+
+	static int qtdeCartas = 52;
+
+	List<Carta> cartas;
+
+	Baralho() {
+		Carta c = new Carta();
+		c.valor = "A";
+		c.naipe = "h";
+		cartas = new ArrayList<Carta>();
+		cartas.add(c);
+
+	}
+
+	void embaralhar() {
+
+	}
+
+	Carta obterCarta() {
+		qtdeCartas -= 1;
+		return new Carta();
+	}
+
+}
