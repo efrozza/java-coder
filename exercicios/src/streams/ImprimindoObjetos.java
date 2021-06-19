@@ -24,6 +24,8 @@ public class ImprimindoObjetos {
 		
 		System.out.println("\nUsando Stream");
 		Stream<String> stream = aprovados.stream();
+		
+		// passando via lambada o metodo println para o forEach
 		stream.forEach(System.out::println);
 		
 	}

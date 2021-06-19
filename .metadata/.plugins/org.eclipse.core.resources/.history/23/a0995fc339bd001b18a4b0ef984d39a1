@@ -1,7 +1,0 @@
-package exercicios.classe;
-
-public enum Sexo {
-	
-	MASCULINO, FEMININO;
-
-}

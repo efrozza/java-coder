@@ -39,7 +39,15 @@ public class Mapa {
 			
 		}
 		
+		usuarios.remove(1);
 		
+
+		for (Entry<Integer, String> registro: usuarios.entrySet()){
+			System.out.println("chave " + registro.getKey());
+			System.out.println("valor " + registro.getValue());
+			
+		}
+
 		
 	}
 

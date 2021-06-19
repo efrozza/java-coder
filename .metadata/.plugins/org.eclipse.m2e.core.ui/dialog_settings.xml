@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\ASPIRE V NITRO\Google Drive\Estudos TI\java-estudos\motor-investimento"/>
+			<item value="C:\Users\ASPIRE V NITRO\Google Drive\Estudos TI\java-estudos\forum"/>
 			<item value="C:\Users\ASPIRE V NITRO\Google Drive\Estudos TI\java-estudos\usando-spring-boot"/>
 			<item value="C:\Users\ASPIRE V NITRO\Google Drive\Estudos TI\testes-estudo\spock-example-master"/>
 			<item value="C:\Users\ASPIRE V NITRO\Google Drive\Estudos TI\testes-estudo\TestesUnitarios"/>
@@ -21,6 +23,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\ASPIRE V NITRO\Google Drive\Estudos TI\java-estudos\forum"/>
 			<item value="C:\Users\ASPIRE V NITRO\Google Drive\Estudos TI\testes-estudo\TestesUnitario2s"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -64,6 +67,8 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="foru"/>
+			<item value="com.frozza"/>
 			<item value="frozza"/>
 			<item value="frozza-tech"/>
 		</list>
