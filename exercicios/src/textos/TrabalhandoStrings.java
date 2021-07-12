@@ -19,7 +19,13 @@ public class TrabalhandoStrings {
 
 		String result = concatenarString(linguagensProgramacao);
 		System.out.println(result);
+		
+		String teste = "123456789";
+		System.out.println(teste.substring(0,2));
 
 	}
+	
+	
+	
 
 }

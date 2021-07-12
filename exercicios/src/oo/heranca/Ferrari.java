@@ -1,6 +1,6 @@
 package oo.heranca;
 
-public class Ferrari extends Carro {
+public class Ferrari extends Carro implements Esportivo{
 
 	public Ferrari() {
 		super(200);
@@ -16,6 +16,18 @@ public class Ferrari extends Carro {
 		if (velocidadeAtual >= 10) {
 			velocidadeAtual -= 10;
 		}
+	}
+
+	@Override
+	public void ligarTurbo() {
+		System.out.println("ligando turbo na ferrari");
+		
+	}
+
+	@Override
+	public void desligarTurbo() {
+		System.out.println("desligando turbo na ferrari");
+		
 	}
 
 }

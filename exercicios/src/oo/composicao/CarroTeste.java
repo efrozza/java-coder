@@ -1,5 +1,7 @@
 package oo.composicao;
 
+import oo.heranca.Ferrari;
+
 public class CarroTeste {
 	
 	public static void main(String[] args) {
@@ -24,6 +26,9 @@ public class CarroTeste {
 		c.acelerar();
 
 		System.out.println(c.motor.giros());
+		
+		Ferrari ferrai = new Ferrari();
+		
 
 		
 	}
