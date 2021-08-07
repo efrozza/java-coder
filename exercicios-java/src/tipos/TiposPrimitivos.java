@@ -31,7 +31,11 @@ public class TiposPrimitivos {
 		System.out.println(Integer.toBinaryString(int1));
 		System.out.println(Long.toBinaryString(long1));
 		
+		// por padrão um número com ponto é um double
+		float f = 3.1416f;
+		double d = 2.45;
 		
+		System.out.printf("%.2f %.1f", f, d);
 		
 		
 	}
